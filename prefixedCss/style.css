@@ -1,0 +1,82 @@
+
+:root {--gigaHeadingFontSize: 70px; --plusSizeFont: 60px; --bigSizeFont: 50px; --mediumSizeFont: 40px; --titleFontSize: 25px; --releaseTitleFontSize: 35px; --releaseSubtitleFontSize: 27px; --releaseTextFontSize: 22px; --subTitleFontSize: 18px; --defaultFontSize: 16px; --thin: 100; --extra-light: 200; --light: 300; --regular: 400; --medium: 500; --semi-bold: 600; --bold: 700; --extra-bold: 800; --black: 900; --lightRoboto: 300; --regularRoboto: 400; --boldRoboto: 700; --primaryColor: #FFCB05; --darkGrayColor: #2a2a2a; --mediumGrayColor: #748EA0; --lightGrayColor: #f4f4f4; --greenColor: #7A9E00; --blueColor: #3D4AE4; --yellowColor: #ffcd00; }
+
+
+
+::-moz-selection{background:var(--primaryColor);color:#fff}
+::selection{background:var(--primaryColor);color:#fff}
+::-moz-selection{background:var(--primaryColor);color:#fff}
+amp-fx-flying-carpet{display:none}
+body,html{scroll-behavior:smooth}
+html,body,div,input,p,span,h1,h2,h3,h4,h5,h6,ul,li,header,section,select,article,button,a,textarea{margin:0;padding:0;outline:none;border:none;background:transparent;font-family:'Montserrat',sans-serif;font-weight:400;font-size:16px;text-decoration:none;-webkit-transition:.5s ease all;-o-transition:.5s ease all;transition:.5s ease all}
+amp-img{margin:0;padding:0;outline:none;border:none;background-color:transparent}
+button,a,input[type="submit"]{cursor:pointer}
+.boxModel{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block}
+.boxModelFlex{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex}
+.boxModelGrid{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:-ms-grid;display:grid}
+p{font-size:20px;line-height:2}
+a:link{color:var(--primaryColor)}
+a:visited{color:var(--primaryColor)}
+a:active{color:var(--primaryColor)}
+.content{overflow-x:hidden;max-width:2000px;margin:0 auto;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;scroll-behavior:smooth}
+body,html{scroll-behavior:smooth}
+.spacer{height:100vh}
+#rectangle{width:50vw;height:30vh;background-color:#90ee90}
+.header{padding:10px;background-color:var(--primaryColor);position:fixed;width:100%;top:0;left:0;z-index:800;-ms-grid-columns:auto 1fr auto;grid-template-columns:auto 1fr auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.header span{-ms-grid-row:1;grid-row:1}
+.headerMenu{grid-column:-2 / -1;-ms-grid-row:1;grid-row:1;cursor:pointer}
+.heroSection{width:100vw;height:100vh;-ms-grid-rows:1fr auto;grid-template-rows:1fr auto;top:0;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.7))),url(../img/criatiane-minha-historia-web-1558711000963_v2_1920x1080.jpg);background-image:-o-linear-gradient(top,rgba(0,0,0,.4),rgba(0,0,0,.7)),url(../img/criatiane-minha-historia-web-1558711000963_v2_1920x1080.jpg);background-image:linear-gradient(to bottom,rgba(0,0,0,.4),rgba(0,0,0,.7)),url(../img/criatiane-minha-historia-web-1558711000963_v2_1920x1080.jpg);background-size:cover;background-origin:border-box;background-position:center center;background-attachment:fixed;background-repeat:no-repeat;z-index:-1}
+amp-img.heroImg img{-o-object-fit:cover;object-fit:cover}
+.heroTextsWrapper{-ms-grid-row:2;grid-row:2;width:100%;justify-items:center;margin-bottom:40px;grid-gap:30px}
+.heroTitle{font-size:60px;color:#fff;text-align:center}
+.heroLead{color:#fff;font-size:23px;text-align:center;width:90%;max-width:1400px}
+.heroGradientBG{position:absolute;width:100%;height:100%;top:0;right:0;left:0;bottom:0;background:rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),color-stop(47%,rgba(0,0,0,0.34)),to(rgba(0,0,0,0.73)));background:-o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.34) 47%,rgba(0,0,0,0.73) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.34) 47%,rgba(0,0,0,0.73) 100%)}
+.sectionTopSpace{height:100vh}
+.heroSectionSob{z-index:2;width:100vw;height:100vh;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.75)),to(rgba(0,0,0,.75))),url(../img/criatiane-minha-historia-web-1558711000963_v2_1920x1080.jpg);background-image:-o-linear-gradient(top,rgba(0,0,0,.75),rgba(0,0,0,.75)),url(../img/criatiane-minha-historia-web-1558711000963_v2_1920x1080.jpg);background-image:linear-gradient(to bottom,rgba(0,0,0,.75),rgba(0,0,0,.75)),url(../img/criatiane-minha-historia-web-1558711000963_v2_1920x1080.jpg);background-size:cover;background-origin:border-box;background-position:center center;background-attachment:fixed;background-repeat:no-repeat}
+.socialShareWrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:fixed;top:40vh;left:-80px;z-index:6}
+.socialShareWrapper::after{content:"Compartilhar";position:absolute;-webkit-transform:rotate(-90deg) translate(-50px,-70px);-ms-transform:rotate(-90deg) translate(-50px,-70px);transform:rotate(-90deg) translate(-50px,-70px);color:#CCCCCA}
+.heroSectionSob{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.sobTextsWrapper{width:80%;max-width:1400px;border:4px solid var(--primaryColor);padding:40px}
+.sobTextsWrapper p{color:#fff;line-height:2}
+#section2{z-index:5;width:100%;height:100vh;background-color:#fff;-ms-grid-columns:1fr 40vw;grid-template-columns:1fr 40vw;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.leftSideText{-ms-grid-row:1;-ms-grid-row-span:1;grid-row:1 / 2;-ms-grid-column:1;-ms-grid-column-span:1;grid-column:1 / 2}
+.leftSideText p{margin-left:180px;line-height:1.8;margin-right:50px}
+.rightSideImgSpace{-ms-grid-row:1;-ms-grid-row-span:1;grid-row:1 / 2;-ms-grid-column:2;-ms-grid-column-span:1;grid-column:2 / 3;width:100%;height:100%}
+.rightSideImgToFixed{-ms-grid-row:1;-ms-grid-row-span:1;grid-row:1 / 2;-ms-grid-column:2;-ms-grid-column-span:1;grid-column:2 / 3;width:40vw;height:100%;right:0;top:0;position:absolute;display:block;-webkit-box-sizing:border-box;box-sizing:border-box}
+amp-img.section2Img img{-o-object-fit:cover;object-fit:cover}
+.imgFull{width:100vw;height:100vh;background-image:url(../img/retrato-de-cristiane-rozeira-de-souza-silva-atacante-da-selecao-brasileira-de-futebol-1558478362474_v2_1920x1.jpg);background-size:cover;background-origin:border-box;background-position:center center;background-repeat:no-repeat;z-index:7}
+.imgFullTwo{width:100vw;height:100vh;background-image:url(../img/retrato-de-cristiane-rozeira-de-souza-silva-atacante-da-selecao-brasileira-de-futebol-1558642664594_v2_1920x1.jpg);background-size:135%;background-origin:border-box;background-position:top center;background-repeat:no-repeat;z-index:7}
+.imgFullThree{width:100vw;height:100vh;background-image:url(../img/retrato-de-cristiane-rozeira-de-souza-silva-atacante-da-selecao-brasileira-de-futebol-1558478466838_v2_1920x1080.jpg);background-size:cover;background-origin:border-box;background-position:top center;background-repeat:no-repeat;z-index:7}
+.imgFullFive{width:100vw;height:100vh;background-image:url(../img/retrato-de-cristiane-rozeira-de-souza-silva-atacante-da-selecao-brasileira-de-futebol-1558645137791_v2_1920x1.jpg);background-size:cover;background-origin:border-box;background-position:bottom center;background-repeat:no-repeat;z-index:7}
+.imgFullSix{width:100vw;height:100vh;background-image:url(../img/retrato-de-cristiane-rozeira-de-souza-silva-atacante-da-selecao-brasileira-de-futebol-1558641872879_v2_1920x1080.jpg);background-size:cover;background-origin:border-box;background-position:top center;background-repeat:no-repeat;z-index:7}
+.textSection{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100vw;height:100vh;z-index:5;background-color:#fff}
+.textSection p{width:90%;max-width:1000px}
+.quotation{font-size:23px;font-weight:500;width:90%;max-width:1000px;-ms-grid-columns:70px 20px 1fr;grid-template-columns:70px 1fr;grid-gap:20px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:50px}
+.quoteIcon{fill:var(--primaryColor)}
+.quotation p{font-weight:600;line-height:1.5;width:100%}
+.quotation::before{display:block;content:url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' height='100' width='100' viewBox="0 0 200 180.8"><path fill="#ED2F40" d="M0,180.8V94.6c-0.4-12.4,1.4-24,5.4-34.9C9.3,48.8,14.9,39.2,22,31c7.1-8.3,15.7-15.1,25.6-20.6 C57.6,5,68.4,1.5,80,0v37.2c-14.3,4.9-24,12.1-29.3,21.7c-5.3,9.6-7.9,21.3-7.9,35.2H80v86.7H0z M120,180.8V94.6 c-0.4-12.4,1.4-24,5.4-34.9c3.9-10.9,9.5-20.5,16.6-28.7c7.1-8.3,15.7-15.1,25.6-20.6C177.6,5,188.4,1.5,200,0v37.2 c-14.3,4.9-24,12.1-29.3,21.7c-5.3,9.6-7.9,21.3-7.9,35.2H200v86.7H120z"/></svg>");background-size:28px 28px;height:28px;width:28px}
+.imgFullParallaxContainer{width:100vw;height:100vh}
+.imgFullParallax{width:100vw;height:100vh;background-image:url(../img/retrato-de-cristiane-rozeira-de-souza-silva-atacante-da-selecao-brasileira-de-futebol-1558639130583_v2_1920x1.jpg);background-repeat:no-repeat;background-origin:border-box;background-size:cover;background-position:center center;position:fixed;display:none;top:0;left:0;z-index:4}
+amp-img.flyingCarpetImg img{-o-object-fit:cover;object-fit:cover}
+#section3{z-index:5;width:100%;height:100vh;background-color:#fff;-ms-grid-columns:1fr 40vw;grid-template-columns:1fr 40vw;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.rightSideImgTwoSpace{-ms-grid-row:1;-ms-grid-row-span:1;grid-row:1 / 2;-ms-grid-column:2;-ms-grid-column-span:1;grid-column:2 / 3;width:100%;height:100%}
+.rightSideImgTwoToFixed{-ms-grid-row:1;-ms-grid-row-span:1;grid-row:1 / 2;-ms-grid-column:2;-ms-grid-column-span:1;grid-column:2 / 3;width:40vw;height:100%;right:0;top:0;position:absolute;display:block;-webkit-box-sizing:border-box;box-sizing:border-box}
+amp-img.section3Img img{-o-object-fit:cover;object-fit:cover}
+.backToTopBtn{position:fixed;bottom:27px;right:27px;overflow:hidden;background-color:var(--primaryColor);padding:6px;width:30px;height:30px;-webkit-transition:.4s ease all;-o-transition:.4s ease all;transition:.4s ease all;cursor:pointer;z-index:500}
+.backToTopBtnOverflow{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:70px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-transition:.4s ease all;-o-transition:.4s ease all;transition:.4s ease all}
+.backToTopBtn:hover .backToTopBtnOverflow{-webkit-transform:translateY(-50px);-ms-transform:translateY(-50px);transform:translateY(-50px)}
+.imgFullFour{width:100vw;height:100vh}
+.heightAuto{height:auto;padding:90px 0}
+.footer{background-color:var(--darkGrayColor);-ms-grid-columns:1fr auto;grid-template-columns:1fr auto;padding:20px;z-index:20}
+.footerTrademark{-ms-grid-columns:100px 20px 1fr;grid-template-columns:100px 1fr;-webkit-box-align:center;-ms-flex-align:center;align-items:center;grid-gap:20px;grid-column:1 / -1;margin-top:30px;padding-top:30px;border-top:1px solid var(--mediumGrayColor);font-weight:600;color:var(--primaryColor)}
+.footerTrademark p{font-size:12px;color:#fff}
+.socialWrapper{grid-auto-flow:column;grid-gap:10px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-grid-row-align:start;align-self:start;grid-column:-1 / -2}
+.socialWrapper h3{-ms-grid-column:1;-ms-grid-column-span:5;grid-column:1 / 6;-ms-grid-row:1;grid-row:1}
+.socialWrapper a svg{fill:var(--primaryColor)}
+.socialWrapper a{padding:10px;-ms-grid-row:2;grid-row:2}
+.socialWrapper a:hover{background-color:var(--mediumGrayColor)}
+.footerColumns{-ms-grid-columns:(1fr)[4];grid-template-columns:repeat(4,1fr)}
+.footerColumnUnit{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-item-align:start;-ms-grid-row-align:start;align-self:start}
+.footerColumnUnit h3,.socialWrapper h3{color:var(--primaryColor);font-weight:var(--lightRoboto);margin-bottom:20px;font-size:18px}
+.footerColumnUnit a{font-weight:var(--lightRoboto);color:#fff;margin:5px 0;font-size:16px}
+.footerColumnUnit a:hover{color:var(--primaryColor)}
